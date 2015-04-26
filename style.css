@@ -14,10 +14,107 @@
 body {
     font-family: 'brixtonbook';
 }
+/*Header Styles*/
+header {
+    height: 325px;
+}
 
 .top {
     background-image: url('img/bg.jpg');
 }
-.left_top{
-background: #000;
+
+.left_top {
+    background: #000;
+    padding-right: 0px;
 }
+.logo{
+text-align: center;
+    color: #E30510;
+    height: 100px;
+}
+.logo > h2 {
+  line-height: 100px;
+}
+
+.img{
+text-align: center;
+    margin: 0 auto;
+    height: 300px;
+}
+img{
+height: 150px;
+}
+
+.right_top {
+    padding-left: 0px;
+    
+}
+
+
+/*footer top styles*/
+
+.footer_top {
+    background: #000;
+    color: #fff;
+}
+
+.service_des {
+    padding-right: 0px;
+}
+.service_des h2{
+ font-size: 17px;
+    text-align: center;
+}
+.service_des p{
+text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+}
+ hr{
+width: 80%;
+     margin: 0 auto;
+ }
+
+/*form area*/
+.form {
+    padding-left: 0px;
+}
+
+input, textarea {
+    background: #1b1b1d none repeat scroll 0 0;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+textarea {
+  height: 100px;
+}
+.reset{
+width: 200px;
+    float: left;
+    clear: none;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+.submit{
+width: 200px;
+    float: right;
+    clear: none;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+/*footer top styles*/
+/*footer styles*/
+
+.footer {
+    color: #000;
+    background: #ddd;
+}
+.social_profiles{
+float: left;
+}
+.copyright{
+float: right;
+}
+/*footer styles*/
