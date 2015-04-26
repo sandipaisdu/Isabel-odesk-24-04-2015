@@ -15,6 +15,7 @@ body {
     font-family: 'brixtonbook';
 }
 /*Header Styles*/
+
 header {
     height: 325px;
 }
@@ -27,30 +28,30 @@ header {
     background: #000;
     padding-right: 0px;
 }
-.logo{
-text-align: center;
+
+.logo {
+    text-align: center;
     color: #E30510;
     height: 100px;
 }
+
 .logo > h2 {
-  line-height: 100px;
+    line-height: 100px;
 }
 
-.img{
-text-align: center;
+.img {
+    text-align: center;
     margin: 0 auto;
     height: 300px;
 }
-img{
-height: 150px;
+
+img {
+    height: 150px;
 }
 
 .right_top {
     padding-left: 0px;
-    
 }
-
-
 /*footer top styles*/
 
 .footer_top {
@@ -61,44 +62,137 @@ height: 150px;
 .service_des {
     padding-right: 0px;
 }
-.service_des h2{
- font-size: 17px;
+
+.service_des h2 {
+    font-size: 17px;
     text-align: center;
 }
-.service_des p{
-text-align: center;
+
+.service_des p {
+    text-align: center;
     line-height: 24px;
     font-size: 16px;
 }
- hr{
-width: 80%;
-     margin: 0 auto;
- }
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+/*Sliding Tabs Area*/
+
+
+
+/*style for first row*/
+.first_row {
+    width: 100px;
+    height: 70px;
+    background: red;
+    color: white;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+    margin-bottom: 2em;
+    margin-top: 30px;
+    transition: 01s
+}
+
+.first_row i {
+    float: right;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.text {
+    position: absolute;
+    margin-left: -1000px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.first_row:hover {
+    width: 350px;
+}
+
+.first_row:hover .text {
+    margin-left: 100px;
+    position: absolute;
+}
+
+.first_row:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 70px 45px;
+    border-color: transparent transparent transparent #ff0000;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #ff0000;
+    _filter: progid: DXImageTransform.Microsoft.Chroma(color='#000000');
+    left: 100%;
+    top: 0px;
+}
+/*style for first row*/
+
+
+
+
+
+/*style for Second row*/
+
+
+/*style for Second row*/
+
+
+
+
+
+/*style for third row*/
+
+
+
+/*style for third row*/
+
+
+
+
+/*Sliding Tabs Area*/
+
+
+
+
+
 
 /*form area*/
+
 .form {
     padding-left: 0px;
 }
 
-input, textarea {
+input,
+textarea {
     background: #1b1b1d none repeat scroll 0 0;
     border: medium none;
     margin-bottom: 10px;
     padding: 10px;
     width: 100%;
 }
+
 textarea {
-  height: 100px;
+    height: 100px;
 }
-.reset{
-width: 200px;
+
+.reset {
+    width: 200px;
     float: left;
     clear: none;
     border: 1px solid #ddd;
     font-weight: bold;
 }
-.submit{
-width: 200px;
+
+.submit {
+    width: 200px;
     float: right;
     clear: none;
     border: 1px solid #ddd;
@@ -111,10 +205,12 @@ width: 200px;
     color: #000;
     background: #ddd;
 }
-.social_profiles{
-float: left;
+
+.social_profiles {
+    float: left;
 }
-.copyright{
-float: right;
+
+.copyright {
+    float: right;
 }
 /*footer styles*/
