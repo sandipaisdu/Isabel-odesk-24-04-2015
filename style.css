@@ -83,6 +83,7 @@ hr {
 
 
 /*style for first row*/
+
 .first_row {
     width: 100px;
     height: 70px;
@@ -93,7 +94,12 @@ hr {
     word-wrap: break-word;
     margin-bottom: 2em;
     margin-top: 30px;
-    transition: 01s
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #888888;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    -moz-transition: 01s;
 }
 
 .first_row i {
@@ -107,10 +113,14 @@ hr {
     margin-left: -1000px;
     font-size: 20px;
     margin-top: 10px;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    -moz-transition: 01s;
 }
 
 .first_row:hover {
-    width: 350px;
+    width: 80%;
 }
 
 .first_row:hover .text {
@@ -134,34 +144,134 @@ hr {
     top: 0px;
 }
 /*style for first row*/
-
-
-
-
-
 /*style for Second row*/
+.second_row {
+    width: 100px;
+    height: 70px;
+    background: #006F9D;
+    color: white;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+    margin-bottom: 2em;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #888888;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    -moz-transition: 01s;
+}
 
+.second_row i {
+    float: right;
+    font-size: 40px;
+    line-height: 55px;
+}
 
+.text_2 {
+    position: absolute;
+    margin-left: -1000px;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    -moz-transition: 01s;
+}
+
+.second_row:hover {
+    width: 80%;
+}
+
+.second_row:hover .text_2 {
+    margin-left: 100px;
+    position: absolute;
+}
+
+.second_row:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 70px 45px;
+    border-color: transparent transparent transparent #006F9D;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #006F9D;
+    _filter: progid: DXImageTransform.Microsoft.Chroma(color='#000000');
+    left: 100%;
+    top: 0px;
+}
 /*style for Second row*/
-
-
-
-
-
 /*style for third row*/
+.third_row {
+    width: 100px;
+    height: 70px;
+    background: #3BAA34;
+    color: white;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+    margin-bottom: 2em;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #888888;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    -moz-transition: 01s;
+}
 
+.third_row i {
+    float: right;
+    font-size: 40px;
+    line-height: 55px;
+}
 
+.text_3 {
+    position: absolute;
+    margin-left: -1000px;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    -moz-transition: 01s;
+}
 
+.third_row:hover {
+    width: 80%;
+}
+
+.third_row:hover .text_3 {
+    margin-left: 100px;
+    position: absolute;
+}
+
+.third_row:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 70px 45px;
+    border-color: transparent transparent transparent #3BAA34;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #3BAA34;
+    _filter: progid: DXImageTransform.Microsoft.Chroma(color='#000000');
+    left: 100%;
+    top: 0px;
+}
 /*style for third row*/
-
-
-
-
 /*Sliding Tabs Area*/
 
 
-
-
+.middle{
+clear: both;
+}
 
 
 /*form area*/
