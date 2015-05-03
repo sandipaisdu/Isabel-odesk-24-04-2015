@@ -35,7 +35,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="responsive.css">
     
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     
@@ -264,26 +267,32 @@
     
     <!--Footer Top Area Ends-->
 
-    <section>
+    <section class="bottom">
        
         <div class="container">
            
             <div class="row footer">
 
-                <div class="col-md-6 social_profiles ">
-                  <div class="fb-like col-md-6" data-href="https://www.facebook.com/webmaster.bangladesh" data-width="20" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+                <div class="col-md-4  fb_button">
+                  <div class="fb-like" data-href="https://www.facebook.com/webmaster.bangladesh" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
                    
-                    <div class="col-md-6">
-                        <a href="#"><i class="fa fa-facebook facebook"></i></a>
                     
-                    <a href="#"><i class="fa fa-twitter twitter"></i></a>
-                    
-                    <a href="#"><i class="fa fa-pinterest pinterest"></i></a>
-                    </div>
                     
                 </div>
+                <div class="col-md-4 social_profiles">
+                       <ul>
+                           <li><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-pinterest pinterest"></i></a></li>
+                       </ul>
+                        
+                    
+                    
+                    
+                    
+                    </div>
                 
-                <div class="col-md-6 copyright">
+                <div class="col-md-4 copyright">
                    
                     <p>&copy;www.bolirrojo.com, 2015.</p>
                     

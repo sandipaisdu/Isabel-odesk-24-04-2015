@@ -17,13 +17,19 @@
 
 body {
     font-family: 'Lato', sans-serif;
+ background: #ddd;
 }
 /*Header Styles*/
+.header{
 
+}
 .top {
-    background-image: url('img/bg.jpg');
+
     padding-left: 0px;
     padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+            background-image: url('img/bg.jpg');
 }
 
 /*Left Top Styles*/
@@ -31,6 +37,8 @@ body {
     background-color: #000;
     padding-right: 0px;
     height: 100vh;
+    z-index: 1000;
+    min-height: 515px;
 }
 
 .logo {
@@ -39,12 +47,12 @@ body {
     height: 40%;
     font-family: 'jennifer_lynneregular';
     font-weight: 700;
-    padding-top: 0px;
+    padding-top: 10px;
 }
 
 .logo > h2 {
     line-height: 100%;
-    font-size: 85px;
+    font-size: 65px;
 }
 
 .img {
@@ -67,6 +75,7 @@ img {
 .right_top {
     padding-left: 0px;
     height: 100%;
+    min-height: 515px;
 }
 /*Sliding Tabs Area*/
 
@@ -75,7 +84,7 @@ img {
 .first_row {
     width: 40%;
     height: 130px;
-    background: #D4F455;
+    background: #E40613;
     color: white;
     padding: 5px;
     position: relative;
@@ -103,7 +112,7 @@ img {
 
 .text {
     position: absolute;
-    display: none;
+    margin-left:-400px;
     font-size: 20px;
     top: 25px;
     transition: 01s;
@@ -111,17 +120,19 @@ img {
     -o-transition: 01s;
     -moz-transition: 01s;
     font-weight: bold;
+    padding: 5px;
 }
 
 .first_row:hover {
     width: 80%;
+    
 }
 
 .first_row:hover .text {
-    margin-left: 30%;
+    margin-left: 25%;
     position: absolute;
     margin-top: 17px;
-    display: block;
+
 }
 
 .first_row:after {
@@ -132,9 +143,9 @@ img {
     height: 0;
     border-style: solid;
     border-width: 0px 0 130px 45px;
-    border-color: transparent transparent transparent #D4F455;
+    border-color: transparent transparent transparent #E40613;
     line-height: 0px;
-    _border-color: #000000 #000000 #000000 #D4F455;
+    _border-color: #000000 #000000 #000000 #E40613;
     _filter: progid: DXImageTransform.Microsoft.Chroma(color='#000000');
     left: 100%;
     top: 0px;
@@ -145,7 +156,7 @@ img {
 .second_row {
     width: 40%;
     height: 130px;
-    background: #01BEF6;
+    background: #006F9D;
     color: white;
     padding: 5px;
     position: relative;
@@ -173,7 +184,7 @@ img {
 
 .text_2 {
     position: absolute;
-    display: none;
+    margin-left:-400px;
     font-size: 20px;
     top: 25px;
     transition: 01s;
@@ -181,6 +192,7 @@ img {
     -o-transition: 01s;
     -moz-transition: 01s;
     font-weight: bold;
+    
 }
 
 .second_row:hover {
@@ -188,10 +200,10 @@ img {
 }
 
 .second_row:hover .text_2 {
-    margin-left: 30%;
+    margin-left: 25%;
     position: absolute;
     margin-top: 17px;
-    display: block;
+    
 }
 
 .second_row:after {
@@ -202,9 +214,9 @@ img {
     height: 0;
     border-style: solid;
     border-width: 0px 0 130px 45px;
-    border-color: transparent transparent transparent #01BEF6;
+    border-color: transparent transparent transparent #006F9D;
     line-height: 0px;
-    _border-color: #000000 #000000 #000000 #01BEF6;
+    _border-color: #000000 #000000 #000000 #006F9D;
     _filter: progid: DXImageTransform.Microsoft.Chroma(color='#000000');
     left: 100%;
     top: 0px;
@@ -215,12 +227,12 @@ img {
 .third_row {
     width: 40%;
     height: 130px;
-    background: #DD56BD;
+    background: #3BAA34;
     color: white;
     padding: 5px;
     position: relative;
     word-wrap: break-word;
-    margin-bottom: 10%;
+    margin-bottom: auto;
     cursor: pointer;
     box-shadow: 10px 10px 5px #888888;
     transition: 01s;
@@ -243,7 +255,7 @@ img {
 
 .text_3 {
     position: absolute;
-    display: none;
+    margin-left:-400px;
     font-size: 20px;
     top: 25px;
     transition: 01s;
@@ -258,10 +270,10 @@ img {
 }
 
 .third_row:hover .text_3 {
-    margin-left: 30%;
+    margin-left: 25%;
     position: absolute;
     margin-top: 17px;
-    display: block;
+    
 }
 
 .third_row:after {
@@ -272,9 +284,9 @@ img {
     height: 0;
     border-style: solid;
     border-width: 0px 0 130px 45px;
-    border-color: transparent transparent transparent #DD56BD;
+    border-color: transparent transparent transparent #3BAA34;
     line-height: 0px;
-    _border-color: #000000 #000000 #000000 #DD56BD;
+    _border-color: #000000 #000000 #000000 #3BAA34;
     _filter: progid: DXImageTransform.Microsoft.Chroma(color='#000000');
     left: 100%;
     top: 0px;
@@ -300,20 +312,21 @@ img {
 }
 
 .service_des p {
-    border-bottom: 2px dotted #1a1a1c;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 21px;
     text-align: center;
+    padding: 10px;
 }
 
 .middle {
     clear: both;
+
 }
 /*form area- Right Side Styling*/
 
 .form {
-    padding-left: 0px;
+    padding: 10px;
 }
 
 input,
@@ -356,6 +369,7 @@ textarea {
 
 /*footer styles*/
 
+
 .footer {
     background-color: #1B1B1D;
     /*height: 50px;*/
@@ -364,33 +378,102 @@ textarea {
     line-height: 40px;
 }
 
-.social_profiles {
-    float: left;
+.fb_button{
+margin: 0 auto;
+    text-align: center;
+}
+
+.col-md-4.social_profiles {
+  text-align: center;
+}
+.social_profiles ul{
+margin: 0;
+    padding: 0;
+}
+.social_profiles ul li{
+display: inline;
+    
+}
+.social_profiles ul li a{
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.social_profiles ul li a:hover{}
+
+.twitter {
+    color: #55ACEE;
+
+}
+
+.facebook {
+    color: #46629e;
+
+
+}
+
+.pinterest {
+    color: #fff;
+
+}
+
+
+.copyright p{
+text-align: center;
+}
+
+
+/*.social_profiles {
+margin: 0 auto;
+    text-align: center;
+}
+.social_profiles ul{
+margin: 0;
+    padding: 0;
+        text-align: center !important;
+}
+
+
+.social_profiles ul li{
+float:  left;
+    list-style: none;
+
+
+}
+
+
+.social_profiles ul li a{
+text-decoration: none;
+    padding: 10px;
+    text-align: center !important;
 }
 
 .facebook {
     color: #46629e;
     font-size: 20px;
     font-weight: bold;
-    padding-right: 10px;
+
 }
 
 .twitter {
     color: #55ACEE;
     font-size: 20px;
     font-weight: bold;
-    padding-right: 10px;
+
 }
 
 .pinterest {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    padding-right: 10px;
+
 }
 
 .copyright {
     float: right;
     text-align: center;
+}
+.copyright > p {
+    margin-right: 50px;
 }
 /*footer styles*/

@@ -1,0 +1,46 @@
+/* Default Layout: 992px.  */
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+    
+    
+    .first_row:hover .text {
+    margin-left: 15%;
+        font-size: 18px;
+    }
+    
+    
+    .second_row:hover .text_2 {
+    margin-left: 15%;
+        font-size: 18px;
+    }
+    
+    
+    .third_row:hover .text_3 {
+    margin-left: 15%;
+        font-size: 18px;
+        
+    }
+    .left_top {
+  height: 515px;
+}
+
+.right_top {
+  height: 515px;
+}
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
